@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -35,4 +38,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+.con-dev {
+  background-color: aquamarine;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: green;
+  margin-bottom: 30px;
+}
+.tablecon {
+  margin-top: 50px;
+  overflow: scroll;
+}
+table {
+  
+  background-color: #61dafb;
+}
+table tr:nth-child(even) {
+  background-color: blanchedalmond;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table tr:nth-child(odd) {
+  background-color: rgb(237, 160, 46);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tableimg {
+  width: 50px;
+  height: 50px;
+}
+table tr td {
+  width: 100%;
+  padding: 0 20px;
 }
